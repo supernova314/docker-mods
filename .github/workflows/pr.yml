@@ -36,7 +36,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            michaukrieg/docker-mods
+            supernova314/docker-mods
             ghcr.io/${{ github.repository }}
           tags: |
             ${{ matrix.mod }}
